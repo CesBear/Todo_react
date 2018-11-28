@@ -1,7 +1,7 @@
-# This is a boiler plate template of a MERN Stack
+# To Do list app
 
-the intention of this project is to used it as a boiler plate to avoid time consuming activities  by installing all dependencies and 
-create all folders structure.
+This ToDO web app is using **MERN** Stack
+
 
 
 #### Tech Used
@@ -14,31 +14,22 @@ create all folders structure.
 4. Node.js
 
 
-**Dependencies Back-End**:
+**Possible features**:
+1. Checklists
+2. Labels
+3. Authentication
+4. Labels
+5. Drag and Drop files
+6. Snooze tasks
+7. Time Tracking
+8. Repeating tasks
+9. Email Task
 
-1. Mongoose
-2. Express
-3. Concurrently
-4. Nodemon
-
-````
-npm install mongoose concurrently  express nodemon
-````
 
 
+**Trello Activity board**
 
-**Dependencies Front-End**:
-1. axios
-2. react-router-dom
-3. react-materialize
-4. react-redux
-5. redux
-6. redux-thunk
-
-````
-npm install react-router-dom react-materialize react-redux redux redux-thunk
-````
-
+https://trello.com/b/FrVz6455
 
 
 @CesBear
