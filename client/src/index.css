@@ -40,6 +40,61 @@ code {
   color: darkgrey;
 }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+.button {
+  display: inline-block;
+  max-width: 300px;
+  margin-top: 50px;
+  border: 0;
+  padding: 0 18px;
+  text-align: left;
+  width: 100%;
+  height: 37px;
+  border-radius: 4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  color: rgba(0, 0, 0, 0.84) !important;
+  fill: rgba(0, 0, 0, 0.84) !important;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.05);
+  font: inherit;
+  outline: none;
+}
+.button .svgIcon {
+  vertical-align: middle;
+  fill: rgba(0, 0, 0, 0.54);
+  padding-right: 4px;
+  height: 37px;
+  display: inline-block;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.fixedHeader {
+  margin-top: 64px;
+}
+.fixedBottom {
+  margin-bottom: 200px;
+}
+
+.fixedLeftSide {
+ margin-left: 300px;
+}
+
+.colorText {
+  color: #282c34 !important;
+}
+
+h1{
+  margin: 10px;
+  padding: 10px;
+}
 /*
 
 Color Pallete

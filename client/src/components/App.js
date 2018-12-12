@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css';
 import BrowserRouter from "react-router-dom/es/BrowserRouter";
-import Route from "react-router-dom/es/Route";
-import HeroComponent from "./home";
+import {Route} from "react-router-dom";
+import HeroComponent from "./ParallaxHome";
 import Header from "./Header";
 import CustomFooter from "./Footer";
+import Home from "./Home";
 
 class App extends Component {
   render() {
@@ -14,7 +15,10 @@ class App extends Component {
             <div>
                 <Header/>
                 <Route exact path="/" component={HeroComponent} />
-                <CustomFooter/>
+                <Route exact path="/home" component={Home}/>
+                <Route exact path="/today"/>
+                <Route exact path="/list"/>
+                <Route exact path="/list/id::"/>
             </div>
           </BrowserRouter>
       </div>
