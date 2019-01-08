@@ -4,7 +4,6 @@ import BrowserRouter from "react-router-dom/es/BrowserRouter";
 import {Route} from "react-router-dom";
 import HeroComponent from "./ParallaxHome";
 import Header from "./Header";
-import CustomFooter from "./Footer";
 import Home from "./Home";
 
 class App extends Component {

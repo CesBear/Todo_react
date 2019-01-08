@@ -3,6 +3,7 @@ import LeftColumn from "../LeftColumn";
 import { Row, Input } from 'react-materialize';
 
 class Home extends Component {
+
     render() {
         return (
             <div className='wrapper'>

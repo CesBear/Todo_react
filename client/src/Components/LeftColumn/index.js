@@ -11,8 +11,7 @@ class LeftColumn extends Component {
                                  name: 'Today'
                              }}
                 />
-                <SideNavItem href='#!icon' icon='cloud'>Your Lists in the cloud</SideNavItem>
-                <SideNavItem subheader>Create your List</SideNavItem>
+                <SideNavItem href='#!icon' icon='list'>Your Lists</SideNavItem>
                 <SideNavItem divider />
                 <SideNavItem subheader>Subheader</SideNavItem>
                 <SideNavItem waves href='#!third'>Third Link With Waves</SideNavItem>
